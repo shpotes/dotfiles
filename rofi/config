@@ -1,0 +1,3 @@
+configuration {
+	font: "DejaVu Sans Mono 14";
+}
