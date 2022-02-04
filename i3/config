@@ -27,7 +27,7 @@ font pango:DejaVu Sans Mono 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite -e '/usr/bin/fish'
+bindsym $mod+Return exec gnome-terminal -e '/usr/bin/fish'
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -72,9 +72,7 @@ bindsym $mod+Control+Left workspace prev
 bindsym $mod+Control+Right workspace next
 
 bindsym $mod+Control+g exec --no-startup-id google-chrome
-bindsym $mod+Control+e exec --no-startup-id emacs
-bindsym $mod+Control+r exec --no-startup-id termite -e ranger
-
+bindsym $mod+Control+c exec --no-startup-id code
 
 # switch to workspace
 bindsym $mod+1 workspace 1
